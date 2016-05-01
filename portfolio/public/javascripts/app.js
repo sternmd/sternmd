@@ -13,6 +13,22 @@ $(document).scroll(function() {
 	  }
 });
 
+$(window).scroll(function() {
+
+ if ($(this).scrollTop()>450)
+  {
+     $('.work_link').fadeOut();
+     $('.about_link').fadeOut();
+     $('.contact_link').fadeOut();
+  }
+ else
+  {
+    $('.work_link').fadeIn();
+    $('.about_link').fadeIn();
+    $('.contact_link').fadeIn();
+  }
+});
+
 $(document).ready(function() {
 	$(".scroll").click(function(event){
 	event.preventDefault();
