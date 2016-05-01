@@ -13,24 +13,24 @@ a {
 
 @font-face {
   font-family: 'Brandon Grotesque Black';
-  src: url('brandon_blk-webfont.eot');
-  src: url('brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
-       url('brandon_blk-webfont.woff2') format('woff2'),
-       url('brandon_blk-webfont.woff') format('woff'),
-       url('brandon_blk-webfont.ttf') format('truetype'),
-       url('brandon_blk-webfont.svg#brandon_grotesqueblack') format('svg');
+  src: url('../fonts/brandon_blk-webfont.eot');
+  src: url('../fonts/brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/brandon_blk-webfont.woff2') format('woff2'),
+       url('../fonts/brandon_blk-webfont.woff') format('woff'),
+       url('../fonts/brandon_blk-webfont.ttf') format('truetype'),
+       url('../fonts/brandon_blk-webfont.svg#brandon_grotesqueblack') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Brandon Grotesque Regular';
-  src: url('brandon_reg-webfont.eot');
-  src: url('brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
-       url('brandon_reg-webfont.woff2') format('woff2'),
-       url('brandon_reg-webfont.woff') format('woff'),
-       url('brandon_reg-webfont.ttf') format('truetype'),
-       url('brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
+  src: url('../fonts/brandon_reg-webfont.eot');
+  src: url('../fonts/brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/brandon_reg-webfont.woff2') format('woff2'),
+       url('../fonts/brandon_reg-webfont.woff') format('woff'),
+       url('../fonts/brandon_reg-webfont.ttf') format('truetype'),
+       url('../fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -139,7 +139,7 @@ header {
 header span a {
 	display: block;
 	position: absolute;
-	font-family: 'Brandon Grotesque Regular';
+	font-family: 'Brandon Grotesque Black';
 	font-size: 15px;
 	top: 45px;
 	left: 49px;
@@ -155,19 +155,23 @@ header span a:hover {
   position: fixed;
 	top: 40px;
 	left: 50px;
-	font-family: 'Brandon Grotesque Regular';
+	font-family: 'Brandon Grotesque Black';
 	font-size: 30px;
 	z-index: 999999;
-  color: @primary;
+  color: @scarlet;
 	height: 20px;
 	letter-spacing: 1.2px;
 	text-align: left;
 }
 
+.logo a {
+  border-bottom: 3px solid @scarlet;
+}
+
 .contact_link {
 	display: block;
 	position: fixed;
-	font-family: 'Brandon Grotesque Regular';
+	font-family: 'Brandon Grotesque Black';
 	font-size: 30px;
 	bottom: 35px;
 	right: 49px;
@@ -189,7 +193,7 @@ header span a:hover {
 	position: fixed;
 	top: 40px;
 	right: 50px;
-	font-family: 'Brandon Grotesque Regular';
+	font-family: 'Brandon Grotesque Black';
 	font-size: 30px;
 	z-index: 999999;
   color: @primary;
@@ -210,7 +214,7 @@ header span a:hover {
 	position: fixed;
 	bottom: 40px;
 	left: 50px;
-	font-family: 'Brandon Grotesque Regular';
+	font-family: 'Brandon Grotesque Black';
 	font-size: 30px;
 	z-index: 999999;
   color: @primary;
@@ -233,7 +237,7 @@ header span a:hover {
 header ul {
 	display: block;
 	position: absolute;
-	font-family: 'Brandon Grotesque Regular';
+	font-family: 'Brandon Grotesque Black';
 	font-size: 15px;
 	top: 30px;
 	right: 50px;
@@ -267,7 +271,7 @@ header ul li a:hover {
   font-size: 40px;
   line-height: 1.10em;
   letter-spacing: -1px;
-  font-family: 'Brandon Grotesque Black';
+  font-family: 'Brandon Grotesque Regular';
   text-align: justify;
   color: @primary;
   position: relative;
@@ -292,7 +296,7 @@ header ul li a:hover {
 	font-size: 106px;
 	line-height: 1.02em;
 	letter-spacing: -0.5px;
-	font-family: 'Brandon Grotesque Black';
+	font-family: 'Brandon Grotesque Regular';
 	text-align: center;
 	position: absolute;
 	color: #000;
@@ -319,7 +323,7 @@ header ul li a:hover {
 .work_text {
 	font-size: 60px;
 	line-height: 1.07em;
-	font-family: 'Brandon Grotesque Black';
+	font-family: 'Brandon Grotesque Regular';
 	position: relative;
 	width:880px;
 	max-width: calc(100% - 240px - 10%);
@@ -456,7 +460,7 @@ header ul li a:hover {
 	letter-spacing: 0.5px;
 	width: 100%;
 	text-align: left;
-	font-family: 'Brandon Grotesque Black';
+	font-family: 'Brandon Grotesque Regular';
 }
 
 .about ul li,
@@ -573,7 +577,7 @@ header ul li a:hover {
 }
 
 .teaser_item span {
-	font-family: 'Brandon Grotesque Black';
+	font-family: 'Brandon Grotesque Regular';
 	font-size: 115px;
 	text-align: left;
 	display: block;
