@@ -86,7 +86,10 @@ html {
   width: 100%;
   overflow-x: hidden;
   position: relative;
-  overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 a,
@@ -173,8 +176,9 @@ header span a:hover {
 	position: fixed;
 	font-family: 'Brandon Grotesque Black';
 	font-size: 30px;
-	bottom: 35px;
-	right: 49px;
+	bottom: 40px;
+  height: 20px;
+	right: 50px;
 	text-align: right;
 	color: @primary;
 	letter-spacing: 1.2px;
