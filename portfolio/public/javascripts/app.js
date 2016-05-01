@@ -15,7 +15,7 @@ $(document).scroll(function() {
 
 $(window).scroll(function() {
 
- if ($(this).scrollTop()>450)
+ if ($(this).scrollTop()>400)
   {
      $('.work_link').fadeOut();
      $('.about_link').fadeOut();

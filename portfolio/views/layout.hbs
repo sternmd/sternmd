@@ -18,17 +18,8 @@
     {{{body}}}
 
     <script>
-    // wow = new WOW(
-    //   {
-    //     animateClass: 'animated',
-    //     offset:       70,
-    //     callback:     function(box) {
-    //       console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-    //     }
-    //   }
-    // );
-    // wow.init();
-    </script>
+      new WOW().init();
+      </script>
 
     <script>
 	    	var tStart = 30 // Start transition 100px from top
@@ -45,7 +36,6 @@
 	        $("#body").css('background-color', 'rgb(' + cBg.join(',') +')');
 	   		});
 			});
-
 
 			var tStart2 = 30 // Start transition 100px from top
 	  		, tEnd2 = 500   // End at 500px
