@@ -1,4 +1,4 @@
-.scaret {
+.scarlet {
   color: #E74C3C;
 }
 a {
@@ -69,6 +69,7 @@ html {
   width: 100%;
   overflow-x: hidden;
   position: relative;
+  overflow-y: hidden;
 }
 a,
 a:link,
@@ -220,15 +221,21 @@ header ul li a:hover {
 }
 .about {
   margin: 0 auto;
-  padding-top: 50px;
+  padding: 20px;
   box-sizing: border-box;
-  font-size: 90px;
+  font-size: 40px;
   line-height: 1.10em;
   letter-spacing: -1px;
   font-family: 'Brandon Grotesque Black';
   text-align: justify;
   color: #555;
   position: relative;
+}
+.about p {
+  padding: 50px;
+}
+.about a {
+  color: #555;
 }
 .contact {
   width: 80%;
@@ -344,7 +351,7 @@ header ul li a:hover {
 .about a:link,
 .about a:visited,
 .about a:active {
-  color: #000;
+  color: #E74C3C;
 }
 .work_text a:hover,
 .about a:hover {

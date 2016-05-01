@@ -3,7 +3,7 @@
 @scarlet: #E74C3C;
 @grey: #1e1e1e;
 
-.scaret {
+.scarlet {
   color: @scarlet;
 }
 
@@ -86,6 +86,7 @@ html {
   width: 100%;
   overflow-x: hidden;
   position: relative;
+  overflow-y: hidden;
 }
 
 a,
@@ -261,15 +262,23 @@ header ul li a:hover {
 
 .about {
   margin: 0 auto;
-  padding-top:50px;
+  padding: 20px;
   box-sizing: border-box;
-  font-size: 90px;
+  font-size: 40px;
   line-height: 1.10em;
   letter-spacing: -1px;
   font-family: 'Brandon Grotesque Black';
   text-align: justify;
   color: @primary;
   position: relative;
+}
+
+.about p {
+  padding: 50px;
+}
+
+.about a {
+  color: @primary;
 }
 
 .contact {
@@ -399,7 +408,7 @@ header ul li a:hover {
 .about a:link,
 .about a:visited,
 .about a:active {
-	color: #000;
+	color: @scarlet;
 }
 
 .work_text a:hover,
