@@ -232,60 +232,13 @@ header ul li a:hover {
   color: #555;
   position: relative;
 }
+@media (max-width: 750px) and (min-width: 0px) {
+  .about p {
+    font-size: 30px;
+  }
+}
 .about a {
   color: #E74C3C;
-}
-@-webkit-keyframes fade_left2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-600px);
-    transform: translateX(-600px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-@keyframes fade_left2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-600px);
-    -ms-transform: translateX(-600px);
-    transform: translateX(-600px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-@-webkit-keyframes fade_right {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(700px);
-    transform: translateX(700px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-@keyframes fade_right {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(700px);
-    -ms-transform: translateX(700px);
-    transform: translateX(700px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
 }
 .main {
   width: 100%;
@@ -373,8 +326,7 @@ header ul li a:hover {
   background: #E74C3C;
   color: #fff;
 }
-/* Individual Caption Styles */
-/* Caption Style 4 */
+/* Caption Style */
 .cs-style-4 li {
   -webkit-perspective: 1700px;
   -moz-perspective: 1700px;
