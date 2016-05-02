@@ -2,9 +2,14 @@
 @black: #111;
 @scarlet: #E74C3C;
 @grey: #1e1e1e;
+@white: #fff;
 
 .scarlet {
   color: @scarlet;
+}
+
+.white {
+  color: @white;
 }
 
 a {
@@ -365,6 +370,7 @@ header ul li a:hover {
 .grid figcaption h3 {
 	margin: 0;
 	padding: 20px;
+  font-size: 36px;
 	color: #fff;
   font-family: 'Brandon Grotesque Black';
   font-weight: lighter;
@@ -372,12 +378,15 @@ header ul li a:hover {
 
 .grid figcaption p {
   padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
   font-family: 'Brandon Grotesque Regular';
+  text-align: justify;
+  color: @white;
 }
 
 
-.grid figcaption span:before {
-	content: 'Technologies Used:';
+.grid figcaption span {
   padding: 20px;
   font-family: 'Brandon Grotesque Regular';
 }
@@ -464,34 +473,10 @@ header ul li a:hover {
 
 #spacemonkey {
   position: absolute;
-  left: 23%;
-}
-
-.tilt {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
-}
-
-.tilt__back,
-.tilt__front {
-	width: 100%;
-	height: 100%;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.tilt__back {
-	position: relative;
-}
-
-.tilt__front {
-	position: absolute;
-	top: 0;
-	left: 0;
+  width: 1045px;
+  height: 1160px;
+  top: 50%;
+  left: 50%;
+  margin-top: -390px;
+  margin-left: -380px;
 }
