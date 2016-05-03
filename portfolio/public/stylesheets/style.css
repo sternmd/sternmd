@@ -322,6 +322,7 @@ header ul li a:hover {
   color: #fff;
   font-family: 'Brandon Grotesque Black';
   font-weight: lighter;
+  padding-bottom: 5px;
 }
 .grid figcaption p {
   padding-left: 20px;
@@ -334,6 +335,8 @@ header ul li a:hover {
 .grid figcaption span {
   padding: 20px;
   font-family: 'Brandon Grotesque Regular';
+  display: block;
+  padding-top: 1px;
 }
 .grid figcaption a {
   font-family: 'Brandon Grotesque Black';
