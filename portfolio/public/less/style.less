@@ -356,6 +356,12 @@ header ul li a:hover {
 	position: relative;
 }
 
+@media (max-width: 550px) and (min-width: 0px) {
+  .grid li {
+    width: 90%;
+  }
+}
+
 .grid figure {
 	margin: 0;
 	position: relative;
@@ -385,6 +391,12 @@ header ul li a:hover {
   padding-bottom: 5px;
 }
 
+@media (max-width: 750px) and (min-width: 0px) {
+  .grid figcaption h3 {
+    font-size: 24px;
+  }
+}
+
 .grid figcaption p {
   padding-left: 20px;
   padding-right: 20px;
@@ -394,6 +406,11 @@ header ul li a:hover {
   color: @white;
 }
 
+@media (max-width: 750px) and (min-width: 0px) {
+  .grid figcaption p {
+    display: none;
+  }
+}
 
 .grid figcaption span {
   padding: 20px;
@@ -401,6 +418,13 @@ header ul li a:hover {
   display: block;
   padding-top: 1px;
 }
+
+@media (max-width: 750px) and (min-width: 0px) {
+  .grid figcaption span.hide {
+    display: none;
+  }
+}
+
 
 .grid figcaption a {
   font-family: 'Brandon Grotesque Black';
@@ -427,6 +451,7 @@ header ul li a:hover {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+  margin-top: 50px;
 }
 
 .cs-style-4 figure > div {
@@ -490,4 +515,8 @@ header ul li a:hover {
   left: 50%;
   margin-top: -390px;
   margin-left: -380px;
+}
+
+#work {
+  margin-top: 20px;
 }
