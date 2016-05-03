@@ -447,3 +447,21 @@ header ul li a:hover {
   margin-top: -390px;
   margin-left: -380px;
 }
+.git {
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+  font-family: 'Brandon Grotesque Black';
+  font-weight: lighter;
+  text-align: left;
+  width: 10%;
+  padding: 5px 10px;
+  border-radius: 2px;
+  display: inline-block;
+  color: #fff;
+}
+@media (max-width: 750px) and (min-width: 0px) {
+  .git {
+    display: none;
+  }
+}
