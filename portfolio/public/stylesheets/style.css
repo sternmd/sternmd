@@ -207,11 +207,22 @@ header ul {
   right: 50px;
   height: 20px;
 }
+@media (max-width: 800px) and (min-width: 0px) {
+  header ul {
+    top: 25px;
+  }
+}
 header ul li {
   float: left;
   list-style-type: none;
   margin-left: 125px;
   letter-spacing: 1.2px;
+}
+@media (max-width: 800px) and (min-width: 0px) {
+  header ul li {
+    float: right;
+    margin-left: 40px;
+  }
 }
 header ul li a:link,
 header ul li a:visited,
@@ -238,6 +249,7 @@ header ul li a:hover {
 @media (max-width: 750px) and (min-width: 0px) {
   .about p {
     font-size: 30px;
+    text-align: left;
   }
 }
 .about a {
