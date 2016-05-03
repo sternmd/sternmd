@@ -255,6 +255,9 @@ header ul li a:hover {
 .about a {
   color: #E74C3C;
 }
+.about a:hover {
+  text-decoration: line-through;
+}
 .main {
   width: 100%;
   height: 100%;
