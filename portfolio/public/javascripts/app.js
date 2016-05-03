@@ -67,3 +67,9 @@ $(document).ready(function() {
 	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1200);
 	});
 });
+
+$(function(){
+    $(window).scroll(function() {
+      $('#log').toggle($(document).scrollTop() > 90);
+    });
+})
