@@ -252,6 +252,11 @@ header ul li a:hover {
     text-align: left;
   }
 }
+@media (max-width: 750px) and (min-width: 0px) {
+  .about {
+    font-size: 30px;
+  }
+}
 .about a {
   color: #E74C3C;
 }
