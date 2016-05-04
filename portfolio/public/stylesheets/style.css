@@ -456,7 +456,7 @@ header ul li a:hover {
 .git {
   position: absolute;
   bottom: 0px;
-  left: 30px;
+  left: 40px;
   font-family: 'Brandon Grotesque Black';
   font-weight: lighter;
   text-align: left;
@@ -466,7 +466,7 @@ header ul li a:hover {
   display: inline-block;
   color: #fff;
 }
-@media (max-width: 800px) and (min-width: 0px) {
+@media (max-width: 1000px) and (min-width: 0px) {
   .git {
     display: none;
   }
