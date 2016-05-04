@@ -411,13 +411,20 @@ header ul li a:hover {
   padding-left: 20px;
   padding-right: 20px;
   width: auto;
+  font-size: 16px;
   font-family: 'Brandon Grotesque Regular';
   text-align: justify;
   color: @white;
 }
 
-@media (max-width: 750px) and (min-width: 0px) {
+@media (max-width: 800px) and (min-width: 0px) {
   .grid figcaption p {
+    display: none;
+  }
+}
+
+@media (max-width: 1070px) and (min-width: 0px) {
+  .grid figcaption p.third {
     display: none;
   }
 }
@@ -429,12 +436,11 @@ header ul li a:hover {
   padding-top: 1px;
 }
 
-@media (max-width: 750px) and (min-width: 0px) {
+@media (max-width: 1000px) and (min-width: 0px) {
   .grid figcaption span.hide {
     display: none;
   }
 }
-
 
 .grid figcaption a {
   font-family: 'Brandon Grotesque Black';
@@ -446,8 +452,6 @@ header ul li a:hover {
 	background: @scarlet;
 	color: #fff;
 }
-
-
 
 /* Caption Style */
 .cs-style-4 li {
@@ -544,7 +548,7 @@ header ul li a:hover {
   color: #fff;
 }
 
-@media (max-width: 750px) and (min-width: 0px) {
+@media (max-width: 800px) and (min-width: 0px) {
   .git {
     display: none;
   }
