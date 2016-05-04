@@ -61,7 +61,6 @@ $(window).scroll(function() {
   }
 });
 
-
 $(document).ready(function() {
 	$(".scroll").click(function(event){
 	event.preventDefault();
