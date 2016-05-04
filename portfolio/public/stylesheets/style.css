@@ -110,7 +110,7 @@ header {
   left: 0;
   top: 0;
   position: fixed;
-  z-index: 999999;
+  z-index: 3;
 }
 header span a {
   display: block;
