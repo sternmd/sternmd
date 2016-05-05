@@ -52,7 +52,7 @@ var spacemonkey = {
 };
 
  $(document).ready(function(){
- $('#spacemonkey').lazylinepainter(
+ $('#spacemonkey').painter(
  {
     "svgData": spacemonkey,
     "strokeWidth": 2,
